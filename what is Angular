@@ -24,8 +24,8 @@ which are instantiated only once in app.
 *Filters − These select a subset of items from an array and returns a new array.
 *Directives − Directives are markers on DOM elements (such as elements, attributes, css, and more). These can be used to create custom 
 HTML tags that serve as new, custom widgets. AngularJS has built-in directives (ngBind, ngModel...)
-*Templates − These are the rendered view with information from the controller and model. These can be a single file (like index.html) or 
-multiple views in one page using "partials".
+*Templates − These are the rendered view with information from the controller and model. These can be a single file (like index.html) 
+or multiple views in one page using "partials".
 *Routing − It is concept of switching views.
 *Model View Whatever − MVC is a design pattern for dividing an application into different parts (called Model, View and Controller), 
 each 
@@ -33,8 +33,8 @@ with distinct responsibilities. AngularJS does not implement MVC in the traditio
 MVVM (Model-View-ViewModel). The Angular JS team refers it humorously as Model View Whatever.
 *Deep Linking − Deep linking allows you to encode the state of application in the URL so that it can be bookmarked. The application can 
 then be restored from the URL to the same state.
-*Dependency Injection − AngularJS has a built-in dependency injection subsystem that helps the developer by making the application easier 
-to develop, understand, and test.
+*Dependency Injection − AngularJS has a built-in dependency injection subsystem that helps the developer by making the application 
+easier to develop, understand, and test.
 
 Advantages of AngularJS
 AngularJS provides capability to create Single Page Application in a very clean and maintainable way.
@@ -44,10 +44,12 @@ AngularJS uses dependency injection and make use of separation of concerns.
 AngularJS provides reusable components.
 With AngularJS, developer write less code and get more functionality.
 In AngularJS, views are pure html pages, and controllers written in JavaScript do the business processing.
-On top of everything, AngularJS applications can run on all major browsers and smart phones including Android and iOS based phones/tablets.
+On top of everything, AngularJS applications can run on all major browsers and smart phones including Android and iOS based 
+phones/tablets.
 Disadvantages of AngularJS
 Though AngularJS comes with lots of plus points but same time we should consider the following points −
-Not Secure − Being JavaScript only framework, application written in AngularJS are not safe. Server side authentication and authorization is must to keep an application secure.
+Not Secure − Being JavaScript only framework, application written in AngularJS are not safe. Server side authentication and 
+authorization is must to keep an application secure.
 Not degradable − If your application user disables JavaScript then user will just see the basic page and nothing more.
 
 The AngularJS Components
